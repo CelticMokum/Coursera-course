@@ -2,61 +2,64 @@
 
 /* base styles*/
 * {
-	box-sizing: border-box;
-	font-family: Helvetica;
+  box-sizing: border-box;
+  font-family: Helvetica;
+  font-size: 12px;
 }
 
 h1{
-	text-align: center;
-	margin-bottom: 40px;
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 175%;
 }
 
 .menu_items{
-	border: solid black 2px;
-	height: 100px;
-	width: 90%;
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: 15px;
-	background-color: lightgrey;
-	font-weight: bold;
-	overflow: hidden;
-
+  border: solid black 1px;
+  height: 100px;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15px;
+  background-color: lightgrey;
+  overflow: hidden;
+  position: relative;
 }
 
 .title-region{
-	border: solid black 2px;
-	float: right;
-	height: 24px;
-	width: 40%;
-	margin-bottom: 6px;
-	margin-top: -2px;
-	margin-right: -2px;
-	text-align: center;
+  border: solid black 1px;
+  float: right;
+  height: 24px;
+  width: 150px;
+  position: relative;
+  margin-bottom: 6px;
+  margin-top: -2px;
+  margin-right: -2px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 225%;
 }
 
 #title-region-1{
-	background-color: pink;
+  background-color: pink;
 }
 
 #title-region-2{
-	background-color: red;
-	color: white;
+  background-color: red;
+  color: white;
 }
 
 #title-region-3{
-	background-color: lightyellow;
+  background-color: lightyellow;
 }
 
 p{
-	margin-top: 4px;
+  margin-top: 4px;
 }
 
 .item-text{
-	clear: right;
-	font-size: 80%;
-	padding-left: 4px;
-	padding-right: 4px;
+  clear: right;
+  padding-left: 4px;
+  padding-right: 4px;
 }
 
 /* Simple Responsive Framework. */
@@ -146,7 +149,7 @@ p{
   .col-md-11 {
     width: 91.66%;
   }
-  .col-md-12 {
+  .col-md-12 #menu_item-3{
     width: 100%;
   }
 }
@@ -192,6 +195,6 @@ p{
     width: 91.66%;
   }
   .col-sm-12 {
-    width: 100%;
+    width: 100%; 
   }
 }
