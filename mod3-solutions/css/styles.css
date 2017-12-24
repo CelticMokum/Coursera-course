@@ -1,14 +1,107 @@
 body{
-	font-family: Arial;
+	font-family: Comic, Arial, Helvetica, sans-serif;;
 	font-size: 16px;
-
 }
 
 .navbar{
 	background-color: gray;
-	color: white;
+	border-radius: 0px;
+	border: solid black 2px;
+}
+
+.navbar-brand{
+	font-size: 1.6em;
+	margin-top: 4px;
+	padding-left: 25px;
+}
+
+a, a:hover{
+	text-decoration: none;
+	color: black;
+}
+
+#collapsable-nav{
+	clear: both;
+	border: solid black;
+	border-width: 2px 0px 0px 0px;
+	background-color: white;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+	border: solid black 2px;
+}
+
+.navbar-header button.navbar-toggle:focus{
+	border: solid white 2px;
+}
+
+.nav-item{
+	text-decoration: none;
+	display: block;	
+}
+
+h1{
+	font-size: 1.6em;
+	font-weight: bold;
 }
 
 .menu-item{
 	background-color: gray;
+	margin-bottom: 20px;
+}
+
+.title-region{
+	font-size: 1.4em;
+	font-weight: bold;
+	padding-top: 10px;
+}
+
+.item-text{
+	text-align: left;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#menu-item1{
+	padding-bottom: 3px;
+}
+
+#menu-item2{
+	padding-top: 4px;
+	padding-bottom: 4px;
+	border-top: solid black 1px;
+	border-bottom: solid black 1px;
+}
+
+#menu-item3{
+	padding-top: 3px;
+}
+
+/* Extra small devices (portrait phones, less than 576px)*/
+/* No media query since this is the default in Bootstrap*/
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+#collapsable-nav{
+	border-width: 0;
+	}
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { 
+#collapsable-nav{
+	border-width: 0;
+	}
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+#collapsable-nav{
+	border-width: 0;
+	}
 }
